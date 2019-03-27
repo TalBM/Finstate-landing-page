@@ -1,0 +1,372 @@
+body {
+    font-family: 'Open Sans', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #c3e2f5;
+}
+
+.container {
+    max-width: 90%;
+}
+
+.btn-registration {
+    width: 100px;
+    color: rgb(99, 99, 99);
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.gradient {
+    background-image:
+        linear-gradient(45deg,
+        #3899fe,
+        #4259dd,
+        #4947d7,
+        #5915c9);
+}
+
+
+
+h2, .h2 {
+    color: white;
+    font-size: 3em;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: rgb(24, 39, 98);
+    font-size: 1.6em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.p {
+    color: rgba(24, 39, 98, 0.7);
+}
+
+p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3899fe;
+    border-color: #3899fe;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 20px;
+    z-index: 1;
+
+}
+
+.btn-primary:hover {
+    background-color: #2d8bee;
+    border-color: #2d8bee;
+    cursor: pointer;
+}
+
+.btn-white {
+    color: #3899fe;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 20px;
+    z-index: 1;
+
+    /* margin-bottom: 50px; */
+}
+
+.btn-white:hover {
+    color: #fff;
+    background-color: #2d8bee;
+    border-color: #2d8bee;
+    cursor: pointer;
+}
+
+.btn-navy {
+    color: #fff;
+    background-color: #182762;
+    border-color: #182762;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 20px;
+    /* margin-bottom: 50px; */
+    z-index: 1;
+
+}
+
+.btn-navy:hover {
+    color: #fff;
+    background-color: #223378;
+    border-color: #223378;
+    cursor: pointer;
+}
+
+#finstate-logo {
+    font-weight: 600;
+    color: #ffffff;
+    ;
+}
+
+section .section-bg {
+    background-color: #00576d;
+    padding: 30px;
+}
+
+p .item-img>p {
+    color: rgb(43, 43, 43);
+}
+
+.quote-bg {
+    background-color: rgba(56, 153, 254, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    /* max-width: 100%; */
+    height: 100%;
+    /* margin-bottom: 20px; */
+}
+
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.abs {
+    position: absolute;
+    right: 0px;
+}
+
+.rel {
+    position: relative;
+    /* display: flex;  */
+}
+
+.img {
+    /* z-index: 1; */
+    width: auto;
+    height: 100%;
+    float: right;
+    /* margin-top:20px; */
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.img3 {
+    width: 760px;
+    height: auto;
+}
+
+.icon {
+    width: 100px;
+    float: left;
+    /* display: inline; */
+    padding-right: 15px;
+}
+
+.ser>img {
+    max-width: 200px;
+    height: auto;
+}
+
+.hiw {
+    max-width: 200px;
+    height: auto;
+    text-align: center;
+}
+
+.nav-bg-color {
+    /* background-color: #5915c9; */
+    background-image:
+        linear-gradient(45deg,
+        #4551da,
+        #4c3ed4,
+        #5915c9);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-top: 4px;
+}
+
+.card-number {
+    font-size: 1.4em;
+    font-weight: 600;
+    position: absolute;
+    top: -20px;
+    left:44%;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #f87271;
+    padding: 4px 15px;
+    text-align: center;
+}
+
+.card-bg1 {
+    background-color: #b7d4e6;
+    border-radius: 10px;
+    border: 0px;
+    height: 100%;
+    margin-bottom: 20px;
+
+}
+
+.card-img-top {
+    width: 75%;
+    Height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+/* div{    border: 1px solid;} */
+
+
+
+.animated {
+    -webkit-animation-duration: .7s;
+    animation-duration: .7s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.pulse{
+animation-name: pulse;
+}
+
+@keyframes pulse{
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    
+    50% {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.bounceInRight {
+    -webkit-animation-name: bounceInRight;
+    animation-name: bounceInRight;
+}
+
+@keyframes bounceInRight{
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+        -ms-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+    
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(-30px);
+        -ms-transform: translateX(-30px);
+        transform: translateX(-30px);
+    }
+    80% {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+@keyframes fadeInUp{
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+}
